@@ -1,0 +1,395 @@
+// scss variables
+$bg-color-1 : #222831;
+$bg-color-2: #393E46;
+$bg-color-3: #00ADB5;
+$bg-color-4: #EEEEEE;
+
+$font-1: 'Times New Roman', Times, serif;
+$font-size: 1.2rem;
+
+body {
+  font-family: "Mulish", "sans-sarif";
+  // background-color: white;
+  // color: $bg-color-2;
+  margin: 0;
+  // font-family: $font-1;
+  // font-size: $font-size;
+  text-align: center;
+}
+
+.davv-logo {
+  width: 60px;
+  margin: 0 20px;
+  // height: 40px;
+}
+
+.login-btn {
+  margin-left: 10px;
+}
+
+// ------------------------------- Navbar -------------------------
+.navbar {
+  // position: fixed;
+  // top: 0;
+}
+
+.navbar-home {
+  text-decoration: underline white 2px;
+}
+
+.navbar-menu {
+  // padding-right:20px;
+}
+
+.nav-item {
+  // padding-right: 10px;
+}
+
+.nav-link {
+  text-decoration: underline $bg-color-1;
+  transition: text-decoration-color 1s linear;
+}
+
+.nav-link:hover {
+  text-decoration-color: white;
+}
+
+// ------------------------------- Login page -------------------------
+.login-form {
+  max-width: 350px;
+  margin: auto;
+}
+
+.login-container {
+  // background-color: $bg-color-3;
+  text-align: center;
+  margin: 100px auto;
+  width: 60%;
+}
+
+.login-heading {
+  font-size: 3rem;
+}
+
+.login-input-email {
+  margin-top: 20px;
+}
+
+.login-input-password {
+  margin-top: 20px;
+}
+
+.login-submit-btn {
+  margin-top: 20px;
+}
+
+.logout-topmost-div {
+  margin: 40px 0;
+  // padding: 40px 0;
+}
+
+// ------------------------------- Footer page -------------------------
+.footer-main-div {
+  background-color: $bg-color-2;
+  padding-bottom: 20px;
+}
+
+.to-center {
+  // margin: auto;
+}
+
+.footer-container {
+padding: 20px 10px;
+color: $bg-color-4;
+margin: auto;
+width: 80%;
+}
+
+.footer-sub-container {
+
+}
+
+.davv-logo-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-davv-logo {
+  height: 150px;
+  width: 150px;
+}
+
+.footer-list-item {
+  list-style-type: none;
+  margin-top: 5px;
+}
+
+.footer-a-tag {
+  text-decoration: none;
+  color: $bg-color-4;
+}
+
+.footer-a-tag:hover {
+  color: $bg-color-3;
+}
+
+.footer-brand-icon {
+  text-decoration: none;
+  margin: 10px;
+  color: $bg-color-4;
+}
+
+// ------------------------------- Event page ------------------------------
+
+.events-div-to-center {
+  text-align: center;
+}
+
+.events-page-tile-image {
+  width: 100%;
+}
+
+.about-page-image {
+  // max-height: 300px;
+}
+
+// ------------------------------- Core components -------------------------
+// ------------------------------- BasicTile -------------------------
+
+.tile-image {
+  width: 80%;
+  border-radius: 5%;
+
+}
+
+.tile-main-div{
+  margin: 5%;
+  padding: 0;
+}
+
+.tile-content {
+  padding: 5%;
+}
+
+.tile-heading {
+  margin: 10px 0;
+  text-align: center;
+  font-size: 4rem;
+}
+
+.tile-description {
+  margin: 10px 0;
+  font-size: 1.2rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.tile-link {
+  margin: 40px 0;
+  text-align: left;
+}
+
+.tile-sub {
+  margin: auto 0;
+}
+
+// ------------------------------- CarouselTile -------------------------
+
+// .carousel-main-div {
+//   margin: 40px auto;
+//   padding: 20px auto;
+//   max-width: 60%;
+//   min-width: 300px;
+// }
+
+.carousel-inner {
+  margin: 0;
+}
+
+//!
+.carousel-main-div {
+  // width: 100%;
+}
+
+.carousel-topmost {
+  width: 100%;
+}
+
+.carousel-image {
+  max-height: 800px;
+}
+//!
+
+
+.home-page-banner-topmost {
+  background-color: $bg-color-1;
+  width: 100%;
+}
+
+.banner-topmost {
+  background-color: $bg-color-1;
+  width: 100%;
+ padding: 40px 0 30px 0;
+}
+
+.banner-card {
+  background-color: $bg-color-1;
+  color: white;
+}
+
+.banner-icon {
+
+}
+
+.banner-separator {
+  padding: 10px;
+}
+
+// ------------------------------- Content separator ruler -------------------------
+.content-sep-ruler {
+    width: 200px;
+    border: solid 3px white;
+    // border-width: 3px;
+    // border-color: white;
+    // border-top-style: dotted;
+    margin: 50px auto 50px auto;
+    max-width: 20%;
+    // max-width: 200px;
+
+    /// test ///
+    
+}
+
+// ------------------------------- Add new btns -------------------------
+
+.resources-add-btn {
+  position: fixed;
+  right: 10px;
+}
+
+
+// ------------------------------- Forms -------------------------
+
+.resource-member {
+  border: solid white 1px;
+  padding: 10px;
+  margin: 20px auto;
+  // border-radius: 2%;
+}
+
+
+.resource-member-container {
+  margin-bottom: 5px;
+}
+
+.main-container-resource {
+  // margin: 10px;
+  // padding: 10px;
+}
+
+.form-resources {
+  margin: 10px;
+  padding: 10px;
+}
+
+.resources-main-div {
+  margin: 10px;
+  padding: 10px;
+  // display: inline-block;
+}
+
+.google-map {
+  // height: 80%;
+  width: 100%;
+  height: 500px;
+  padding: 10px;
+}
+
+.google-map-container {
+  border: solid 1px;
+}
+
+.google-map-div {
+  margin: 20px 0;
+  // padding: 10px;
+}
+
+.update-btn {
+  margin-right: 2px;
+  margin-bottom: 2px;
+}
+
+.delete-btn {
+  margin-right: 2px;
+  margin-bottom: 2px;
+}
+
+.resources-buttons-div {
+text-align: right;
+}
+
+.admissions-card-btns {
+  margin: 5px;
+}
+
+.admissions-main-div {
+  margin: 5px 10px;
+  padding: 5px;
+}
+
+// ****************** For login System only *************************//
+.none{
+  display: none;
+}
+
+// ****************** Media Queries *************************//
+
+/* Custom styles for extra small devices */
+@media (max-width: 575.98px) {
+  body {
+  }
+
+  .tile-heading {
+    font-size: 32px;
+  }
+
+  .tile-description {
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .tile-image {
+    width: 100%;
+  }
+
+  .content-sep-ruler {
+    width: 200px;
+    border: solid 3px white;
+    // border-width: 3px;
+    // border-color: white;
+    // border-top-style: dotted;
+    margin: 10px auto 10px auto;
+    max-width: 20%;
+  }
+}
+
+/* Custom styles for small devices */
+@media (min-width: 576px) {
+  body {
+
+  }
+
+}
+
+/* Custom styles for medium devices */
+@media (min-width: 768px) {
+  body {
+
+  }
+}
+
+
+/* Custom styles for large devices */
+@media (min-width: 992px) {
+  
+}
